@@ -25,10 +25,6 @@ public class CustomerController {
         return customerRepository.findAll();
     }
 
-    @GetMapping("/getAllProducts")
-    public List<Product> getProducts() {
-        System.out.println(productRepository.findAll());
-        return productRepository.findAll();
-    }
+
 
 }
