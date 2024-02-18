@@ -8,8 +8,6 @@ public class JpaApplication {
 
 	public static void main(String[] args) {
 
-		int a;
-		a = 10;
 		SpringApplication.run(JpaApplication.class, args);
 
 	}

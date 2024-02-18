@@ -1,4 +1,4 @@
-package com.example.jpa;
+package com.shopping.jpa;
 
 import com.shopping.jpa.entity.Customer;
 import com.shopping.jpa.repository.CustomerRepository;
