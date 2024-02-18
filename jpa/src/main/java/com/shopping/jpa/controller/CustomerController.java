@@ -20,7 +20,6 @@ public class CustomerController {
     @GetMapping("/customers")
     public List<Customer> customers() {
         List<Customer> customerList = customerService.fetchAllCustomers();
-        System.out.println("test23rreafiooii009001");
         return customerList;
     }
 

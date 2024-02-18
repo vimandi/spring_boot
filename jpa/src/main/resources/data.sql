@@ -1,3 +1,8 @@
+
+ALTER TABLE customer MODIFY COLUMN id INT AUTO_INCREMENT;
+
+
+
 -- Insert data into the customer table
 INSERT INTO customer (id, first_name, last_name, email, address) VALUES
 (1, 'John', 'Doe', 'john.doe@example.com', '123 Main St, Anytown, USA'),
